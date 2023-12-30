@@ -14,7 +14,7 @@ public class s1_1 {
         }
 
         handler.setLine(unduplicatedLine);
-        if (handler.hasDuplicateCharacter() == true) {
+        if (handler.hasDuplicateCharacter() == false) {
             throw new RuntimeException("this string hasn't duplicate characters");
         }
     }
